@@ -35,6 +35,15 @@ window.addEventListener("keydown",(e)=>{
         if(player.x>10){
             player.x -=10;
         }
+        else if(e.key==="ArowUp"){
+  if (player. y >10){
+     pleyer.y -=10;
+  }
+
+else if(e.key==="ArowDown"){
+  if (player. <canvas.height - player.height -10){
+     pleyer.y +=10;
+  }
     }else if(e.key ==="ArrowRight"){
         if(player.x<canvas.width-player.width-10){
             player.x +=10;
